@@ -11,9 +11,9 @@ def taylor (deriv ,x,y,xStop ,h):
         for j in range (3): 
             H = H*h/(j + 1)
             y = y + D[j]*H
-         x = x + h
-         X. append (x)
-         Y. append (y)
+            x = x + h
+            X. append (x)
+            Y. append (y)
     return array (X),array (Y) # Convert lists into arrays
 def deriv (x,y):
     D = np.zeros((4,1)) 
