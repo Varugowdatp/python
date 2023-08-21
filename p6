@@ -28,5 +28,5 @@ p=x+2*y
 q=x-2*y
 f= diff (q,x)- diff (p,y)
 soln = integrate (f,[x,0,1],[y,0,1])
- print ("I=",soln )
+print ("I=",soln )
 
